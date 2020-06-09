@@ -13,7 +13,10 @@ export const init = (stageInstance) =>{
  * and return the data
  */
 export const getMovies = async()=> {
-
+    let url = 'https://api.themoviedb.org/3/movie/popular';
+    let queryString = '?api_key=';
+    
+    get(url + queryString + apiKey);
 };
 
 const get = (url)=> {
@@ -23,4 +26,3 @@ const get = (url)=> {
         return response.json();
     })
 };
-
