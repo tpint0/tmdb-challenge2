@@ -41,8 +41,6 @@ export default class Main extends Lightning.Component{
     }
 
     _focus() {
-        // this.signal('hideSplash', true);
-        // this.fireAncestors('$hideSplashScreen', true);
     }
 
     $selectionChanged(__item) {

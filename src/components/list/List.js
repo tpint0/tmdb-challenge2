@@ -48,13 +48,6 @@ export default class List extends Lightning.Component {
         }
     }
 
-    // _focus() {
-    //     this.tag('Label').setSmooth('y', 0, {duration: 0.5});
-    //     this.label = this.results[this._index];
-    //     let asset = this.results[this._index];
-    //     this.signal('onItemFocus',asset);
-    // }
-
     setIndex(index) {
         /**
          * @todo:
